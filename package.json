@@ -1,0 +1,48 @@
+{
+  "name": "vue-recomputed-async",
+  "version": "1.0.0",
+  "description": "Vue.js extended computed composable with async, initial state & manual refresh support",
+  "author": "Ahmed Chakhoum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rainxh11/vue-recomputed-async/issues"
+  },
+  "homepage": "https://github.com/rainxh11/vue-recomputed-async#readme",
+  "type":"module",
+  "exports":"./dist/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@vueuse/core": "^8.9.4",
+    "vue-demi": "^0.13.5"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.20.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4"
+  },
+  "keywords": [
+    "vue",
+    "compositionapi",
+    "vueuse",
+    "vue-compositionapi",
+    "vuejs",
+    "computed",
+    "async",
+    "reactive",
+    "refresh"
+  ]
+}
