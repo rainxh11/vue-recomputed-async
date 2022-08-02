@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "es2020",
     "moduleResolution": "node",
-    "target": "ESNext",
+    "target": "es5",
     "jsx": "preserve",
     "strictFunctionTypes": true,
     "outDir": "dist",
