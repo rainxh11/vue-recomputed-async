@@ -2,6 +2,19 @@
 [![NPM version](https://img.shields.io/npm/v/vue-recomputed-async.svg)](https://www.npmjs.com/package/vue-recomputed-async)
 
 Vue.js extended computed composable with async, initial state &amp; manual refresh support
+this library aims to provide better code integration by providing a single function that eliminate the need to create and call a fetch function, creating a sperate loading & data objects manually handling the fetch function errors, lazy evualation, providing an initial default state in case of in progress evaluation or failure
+### Comparison with regular `computed()` & `vueuse` `computedAsync()`:
+|Feature|`computed()`|`computedAsync()`|`recomputedAsync()`|
+|-|-|-|-|
+|Dependency Tracking & Reactivity|✅|✅|✅|
+|Async Support|❌|✅|✅|
+|Initial State|❌|✅|✅|
+|Lazy Evaluation|❌|✅|✅|
+|Evaulation State|❌|✅|✅|
+|Manual Re-evaluation|❌|❌|✅|
+#### Use cases:
+- providing initial data state, while fetching data from API
+- ability to refresh the data that might be changed without being tied to any dependecy a normal computed would not be able to react to
 # Install
 ```bash
 npm i vue-recomputed-async

@@ -1,6 +1,6 @@
 {
   "name": "vue-recomputed-async",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vue.js extended computed composable with async, initial state & manual refresh support",
   "author": "Ahmed Chakhoum",
   "license": "MIT",
